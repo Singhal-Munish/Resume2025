@@ -23,14 +23,20 @@ function App() {
       <expInfoContext.Provider value={ {moreBtn, setMoreBtn} }>
         <NavigationBar />
         <NavigationLeft />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/aboutme" element={<AboutMe />}/>
           <Route path="/projects" element={<Projects />}/>
           <Route path="/contact" element={<Contact />}/>
           <Route path="/moreExperience" element={<MoreExperience />}/>
           <Route path="*" element={<NoMatch />}/>
-        </Routes>      
+        </Routes> */}
+        <Home />
+          <AboutMe />
+          <Projects />
+          <Contact />
+          <MoreExperience />
+          <NoMatch />
         <Footer />
         {/* <ScrollToTop smooth viewBox="0 0 24 24" component={<FaAngleDoubleUp />}/> */}
       </expInfoContext.Provider>
