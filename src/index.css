@@ -1,0 +1,358 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f6f5f0;  
+  }
+.naviBar{
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.bannerImg{
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  /* opacity: 0.8; */
+}
+
+.journeyBg{
+  background-color: #eaebeb;
+}
+
+.careerImage{
+  height: 60vh;
+  width: 100%;
+  object-fit: scale-down;
+  object-position: center;
+}
+
+.bannerTextBox{
+  position: absolute;
+  top: 55%;
+  left: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bannerHeading{
+  color: black;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.aboutText{
+  text-align: justify;
+  width: 85vw;
+  margin: auto;
+  margin-top: 50px;  
+}
+
+.aboutText h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.aboutText p {
+  font-size: 20px;
+}
+
+.preserve-white-space {
+  white-space: pre;
+  color: white;
+}
+
+.journeyDetails{
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.journeyHeading{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.qualImage{
+  height: 30vh;
+  object-fit: cover;
+}
+
+.qualCard{
+  height: 68vh !important;
+}
+
+.buttonPos{
+  position: absolute;
+  bottom:10px;
+  right: 10px;
+}
+
+.expHeading{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.moreExpDiv{
+  background-color: #eaebeb;
+  box-shadow: 10px 10px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.expImage{
+  height: 100%;
+  object-fit: cover;
+}
+
+.moreExpImage{
+  height: 75vh;
+  border: 1px solid gray;
+  box-shadow: 8px 8px 30px;
+}
+
+.moreDetails{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0px;
+}
+
+.backButton{
+  float: left;
+  position: sticky;
+  top: 80px;
+  left: 20px;
+}
+
+.jobProfile{
+  padding: 60px 80px;
+}
+
+.expList{
+  text-align: justify;
+  list-style-type: "\2654   ";
+  font-size: 1.8vw;
+  line-height: 2.5vw;
+}
+
+@media (max-width: 992px){
+  .expList{
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+}
+
+@media (max-width: 768px){
+  .expList{
+    font-size: 2.5vw;
+    line-height: 4vw;
+  }
+  .jobProfile{
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px){
+  .expList{
+    font-size: 2.5vw;
+    line-height: 4vw;
+  }
+  
+  .jobProfile{
+    padding: 30px;
+  }
+}
+
+.skillsButton{
+  border: none !important;
+  border-radius: 10vw !important;
+  width: 15vw;
+  font-size: 0.9em !important;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px){
+  .skillsButton{
+    width: 30vw;
+  }
+}
+@media (max-width: 576px){
+  .skillsButton{
+    width: 30vw;
+  }
+}
+
+.progBar{
+  margin-bottom: 20px;
+  height: 22px !important;
+  font-size: 0.9rem !important;
+  border-radius: 15px !important;
+}
+
+.transferSkills {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.transferSkills li::marker {
+  content: "➠   ";
+}
+
+.contactHeading{
+  text-align: center;
+  background-color: #34287a;
+  color: white;
+  padding: 20px;
+}
+
+.lastUpdated{
+  font-size: 2.1vh;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.contactForm{
+  background-color: #34287a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  gap: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .contactForm{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contactText{
+    width: 90vw;
+    padding: 0 25vw;
+  }
+  .contactItems{
+    width: 90vw;
+  } 
+}
+
+@media screen and (min-width: 992px) {
+  .contactForm{
+    flex-direction: row;
+    gap: 100px;
+  }
+  .contactText{
+    width: 30vw;
+    padding-left: 50px;
+  }
+  .contactItems{
+    width: 50vw;
+  } 
+}
+
+.contactText{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contactItems{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contactFormHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-top: 12px;
+  background-color: black;
+  height: 5vh;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.redDot{
+  height: .5rem;
+  width: .5rem;
+  margin-left: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+.yellowDot{
+  height: .5rem;
+  width: .5rem;
+  margin-left: 7px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.greenDot{
+  height: .5rem;
+  width: .5rem;
+  margin-left: 7px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.footerBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerText{
+  color: white;
+}
+
+.fbIcon{
+  color: #405aa2;
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.lInIcon{
+  color: #136bc5;
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.igIcon{
+  color: black;
+  background: linear-gradient(45deg, #ffd227, #c108a3); 
+  -webkit-text-fill-color: transparent; 
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.xIcon{
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.waIcon{
+  color: #25ba3f;
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.topButton{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
