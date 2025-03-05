@@ -14,11 +14,11 @@ const NavigationBar = () => {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">AboutMe</Nav.Link>
             <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/projects">NYE Bash 2025</NavDropdown.Item>
+              <NavDropdown.Item href="/Resume2025/projects">NYE Bash 2025</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/projects">Resume</NavDropdown.Item>
+              <NavDropdown.Item href="/Resume2025/projects">Resume</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/projects">E-Comm</NavDropdown.Item>
+              <NavDropdown.Item href="/Resume2025/projects">E-Comm</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
