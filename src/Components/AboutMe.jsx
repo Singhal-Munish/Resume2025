@@ -3,7 +3,7 @@ import React from 'react'
 const AboutMe = () => {
   return (
     <>
-        <div className='container-md aboutText'>
+        <div  id='about' className='container-md aboutText'>
           <h3>
             about
           </h3>

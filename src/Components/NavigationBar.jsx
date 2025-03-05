@@ -11,8 +11,8 @@ const NavigationBar = () => {
         <Container fluid='xl gx-0'>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/aboutme">AboutMe</Nav.Link>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">AboutMe</Nav.Link>
             <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
               <NavDropdown.Item href="/projects">NYE Bash 2025</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -20,7 +20,7 @@ const NavigationBar = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item href="/projects">E-Comm</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

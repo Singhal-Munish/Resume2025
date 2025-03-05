@@ -11,7 +11,7 @@ import NoMatch from './Pages/NoMatch';
 import NavigationBar from './Components/NavigationBar';
 import Footer from './Components/Footer';
 import NavigationLeft from './Components/NavigationLeft';
-import MoreExperience from './Components/MoreExperience';
+// import MoreExperience from './Components/MoreExperience';
 import { expInfoContext } from './Components/Context/AppContext';
 // import ScrollToTop from "react-scroll-to-top";
 import { FaAngleDoubleUp } from "react-icons/fa";
@@ -23,20 +23,15 @@ function App() {
       <expInfoContext.Provider value={ {moreBtn, setMoreBtn} }>
         <NavigationBar />
         <NavigationLeft />
-        <Routes>
-          <Route exact path="/Resume2025" element={<Home />}/>
+        {/* <Routes>
+          <Route path="/" element={<Home />}/>
           <Route path="/aboutme" element={<AboutMe />}/>
           <Route path="/projects" element={<Projects />}/>
           <Route path="/contact" element={<Contact />}/>
           <Route path="/moreExperience" element={<MoreExperience />}/>
           <Route path="*" element={<NoMatch />}/>
-        </Routes>
-        {/* <Home />
-          <AboutMe />
-          <Projects />
-          <Contact />
-          <MoreExperience />
-          <NoMatch /> */}
+        </Routes> */}
+        <Home />
         <Footer />
         {/* <ScrollToTop smooth viewBox="0 0 24 24" component={<FaAngleDoubleUp />}/> */}
       </expInfoContext.Provider>

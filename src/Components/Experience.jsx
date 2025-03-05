@@ -1,21 +1,21 @@
 import React, { useState, useContext } from 'react'
 import { Row, Col, Card, Button, Accordion, Nav } from "react-bootstrap";
 import { expDetails } from "../assets/Assets";
-import { useNavigate } from 'react-router';
+// import { useNavigate } from 'react-router';
 import { expInfoContext } from './Context/AppContext';
 import { TbCalendarTime } from "react-icons/tb";
 
 const Experience = () => {
-    let navigate = useNavigate();
-    const moreExp = (url) => {
-        let path = '/moreExperience';
-        navigate(path);
-    };
+    // let navigate = useNavigate();
+    // const moreExp = (url) => {
+    //     let path = '/moreExperience';
+    //     navigate(path);
+    // };
 
     const value = useContext(expInfoContext);
     const handleMoreClick = (e) => {
         value.moreBtn = e.target.value;
-        moreExp();
+        // moreExp(); 
     }
       
     return (

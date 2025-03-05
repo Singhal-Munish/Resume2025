@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className='contactHeading'></div>
+      <div id="#contact" className='contactHeading'></div>
       <div className='contactForm'>
         <div className='contactText'>
           <h1 style={{fontSize: '3.2vw', fontWeight: 'semibold', textTransform: 'capitalize'}}>Contact Form & <br /> Validation</h1>          

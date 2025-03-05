@@ -1,7 +1,7 @@
 {
   "homepage": "https://singhal-munish.github.io/Resume2025/",
   "name": "create-vite",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
